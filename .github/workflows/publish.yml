@@ -16,7 +16,7 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
-    requires: bump
+    needs: bump
     permissions: 
       contents: read
       packages: write 
