@@ -1,5 +1,5 @@
 {
-  "name": "resque-cluster-proxy",
+  "name": "@catto/resque-cluster-proxy",
   "version": "0.1.1",
   "description": "Super low performance Redis Cluster proxy for Resque",
   "main": "lib/client.js",

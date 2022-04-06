@@ -1,0 +1,12 @@
+name: Bump version
+
+on:
+  push: master
+
+jobs:
+  bump:
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+    - run: npm version patch
+    - run: git push && git push --tags
