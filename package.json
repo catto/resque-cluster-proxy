@@ -19,7 +19,7 @@
     "respjs": "^4.1.5"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
+    "eslint": "^8.34.0",
     "jenkins-mocha": "^9.0.0",
     "rewire": "^6.0.0",
     "sinon": "^13.0.2"
